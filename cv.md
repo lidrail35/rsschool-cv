@@ -13,3 +13,8 @@
 + Figma
 ## Expirience
 I have some experience in application development. I developed, wrote and maintain to this day a billing system and related applications for a departmental PBX (Lazarus environment, Firebird database).
+## Code example
+````
+const f = (Num) => (Num === 0) ? 1 : Num * f(Num - 1);
+````
+ 
