@@ -11,3 +11,5 @@
 + JavaScript (Basic)
 + Git/Github
 + Figma
+## Expirience
+I have some experience in application development. I developed, wrote and maintain to this day a billing system and related applications for a departmental PBX (Lazarus environment, Firebird database).
