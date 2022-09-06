@@ -1,7 +1,8 @@
 ## RSSchool-cv
 # Hello! My name is Mikalai!
 ![My foto](./assets/img/main-image.jpg)
-
+## About me
+I'm 45 years old. Currently I am working at the Belarusian Railways as a team leader. I have 24 people under my direct supervision. We are engaged in the maintenance and operation of telephone and telegraph equipment. I understand that my profession is losing its relevance, and I want to change my occupation to a more promising one: to become a front-end developer.
 ## Contact info:
 + Email: [lidrail35](lidrail35@mail.ru)
 + Discord: lidrail(@lidrail35)
