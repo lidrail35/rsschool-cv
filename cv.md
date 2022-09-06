@@ -17,4 +17,6 @@ I have some experience in application development. I developed, wrote and mainta
 ````
 const f = (Num) => (Num === 0) ? 1 : Num * f(Num - 1);
 ````
- 
+ ## Education
++ Brest College of Railway Transport (1996) - maintenance and repair of automated control systems in railway transport
++  Belarusian State University of Informatics and Radioelectronics (2004) - Telecommunication systems
