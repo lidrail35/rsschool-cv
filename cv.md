@@ -4,9 +4,9 @@
 ## About me
 I'm 45 years old. Currently I am working at the Belarusian Railways as a team leader. I have 24 people under my direct supervision. We are engaged in the maintenance and operation of telephone and telegraph equipment. I understand that my profession is losing its relevance, and I want to change my occupation to a more promising one: to become a front-end developer.
 ## Contact info:
-+ Email: [lidrail35](lidrail35@mail.ru)
-+ Discord: lidrail(@lidrail35)
-+ GitHub: [lidrail35](https://github.com/lidrail35)
++ **Email:** [lidrail35](lidrail35@mail.ru)
++ **Discord:** lidrail(@lidrail35)
++ **GitHub:** [lidrail35](https://github.com/lidrail35)
 ## Skills
 + HTML
 + CSS
@@ -17,7 +17,7 @@ I'm 45 years old. Currently I am working at the Belarusian Railways as a team le
 I have some experience in application development. I developed, wrote and maintain to this day a billing system and related applications for a departmental PBX (Lazarus environment, Firebird database).
 ## Code example
 ````
-const f = (Num) => (Num === 0) ? 1 : Num * f(Num - 1);
+const factorial = (Num) => (Num === 0) ? 1 : Num * factorial(Num - 1);
 ````
 ## Education
 + Brest College of Railway Transport (1996) - maintenance and repair of automated control systems in railway transport
