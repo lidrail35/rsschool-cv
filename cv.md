@@ -5,3 +5,9 @@
 + Email: [lidrail35](lidrail35@mail.ru)
 + Discord: lidrail(@lidrail35)
 + GitHub: [lidrail35](https://github.com/lidrail35)
+## Skills
++ HTML
++ CSS
++ JavaScript (Basic)
++ Git/Github
++ Figma
