@@ -3,6 +3,11 @@
   margin: 0;
 }
 
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth; 
+}
+
 .wrapper {
   max-width: 1000px;
   margin: 0 auto; 
@@ -48,5 +53,63 @@
 }
 
 .left {
-  min-width: 30%;
+  max-width: 290px;
+  background: #404040;
+  color: #e6e6e6;
+  padding: 0 10px 0 10px;
 }
+
+/******************* MAIN - LEFT ******************/
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main_image {
+  margin-top: 35px;
+  margin-bottom: 20px;
+  border-radius: 145px;
+}
+
+.name {
+  text-transform: uppercase;
+  font-size: 24px;
+  letter-spacing: 3px;
+  font-weight: 800;
+  color: #ed1b34;
+}
+
+.profile-header {
+  padding: 15px;
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  text-align: center;
+}
+
+.skills {
+  margin-top: 25px;
+}
+
+.skills-header {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.skills_list {
+  margin-top: 20px;
+  margin-left: 25px;
+}
+
+.skills_item {
+  list-style-type: none;
+  padding-bottom: 15px;
+}
+
+.skills_item:last-child {
+  padding-bottom: 0;
+}
+
+/****************** MAIN - RIGHT ******************/
