@@ -3,6 +3,11 @@
   margin: 0;
 }
 
+.wrapper {
+  max-width: 1000px;
+  margin: 0 auto; 
+}
+
 /********************* HEADER *********************/
 
 .nav-list {
