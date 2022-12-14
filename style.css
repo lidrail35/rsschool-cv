@@ -2,3 +2,35 @@
   padding: 0;
   margin: 0;
 }
+
+/********************* HEADER *********************/
+
+.nav-list {
+  display: flex;
+  justify-content: space-around;
+} 
+
+.nav-item {
+  list-style-type: none;
+}
+
+.nav-link {
+  position: relative;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #4d4d4d;
+  font-weight: 700;
+}
+
+.nav-link::before {
+  position: absolute;
+  top: 18px;
+  content: '';
+  width: 0%;
+  border-bottom: 3px solid #bb0000;
+  transition: 0.15s;
+}
+
+.nav-link:hover::before {
+  width: 100%;
+}
