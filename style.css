@@ -34,3 +34,14 @@
 .nav-link:hover::before {
   width: 100%;
 }
+
+/********************** MAIN **********************/
+
+.main {
+  display: flex;
+  flex-direction: row;
+}
+
+.left {
+  min-width: 30%;
+}
