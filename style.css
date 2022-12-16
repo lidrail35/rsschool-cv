@@ -89,11 +89,13 @@ html {
   text-align: center;
 }
 
-.skills {
+.skills,
+.contact {
   margin-top: 25px;
 }
 
-.skills-header {
+.skills-header,
+.contact-header {
   text-align: center;
   text-transform: uppercase;
 }
@@ -103,21 +105,24 @@ html {
   margin-left: 25px;
 }
 
-.skills_item {
+.skills_item,
+.contact_item {
   padding: 10px 0 10px 25px;
   list-style: none;
 }
 
-.skills_item {
+.skills_item,
+.contact_item {
   padding: 10px 40px;
-  color: #FFFFFF;
+ /* color: #FFFFFF;*/
   text-decoration: none;
   background-size: auto 30px;
   background-repeat: no-repeat;
   background-position: 0 50%;
 }
 
-.skills_item:last-child {
+.skills_item:last-child,
+.contact_item:last-child {
   padding-bottom: 0;
 }
 
@@ -136,4 +141,7 @@ html {
 .git_icon {
   background-image: url(./assets/img/icon-github.svg);
 }
+
+
+
 /****************** MAIN - RIGHT ******************/
