@@ -24,7 +24,6 @@ html {
 .header, 
 .footer {
   background-color: #c1c1c1;
-  
 }
 
 .nav_list {
@@ -193,7 +192,7 @@ html {
   background: #ffffff;
 }
 
-.right_header_2 {
+.right_header {
   padding-top: 30px;
   font-size: 16px;
   letter-spacing: 3px;
@@ -212,7 +211,6 @@ html {
   padding: 15px 25px 0px 15px;
   width: 50%;
   height: 50px;
-  
   vertical-align: top;
   text-align: left;
   word-spacing: 4px;
@@ -225,7 +223,6 @@ html {
 .code_text {
   display: block;
   padding-top: 10px; 
-
   font-weight: 600;
   letter-spacing: 1px;
   word-spacing: 2px;
@@ -267,7 +264,6 @@ html {
 .exp_link:link {
   color: #000000;
 }
-
 
 .exp_link:visited {
   color: #969696;
