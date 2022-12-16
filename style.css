@@ -190,3 +190,23 @@ html {
   word-spacing: 2px;
   background-color: #808080;
 }
+
+.exp_list {
+  padding-top: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.exp_item {
+  list-style-type: none;
+  padding-bottom: 40px;
+}
+
+.exp_item:last-child {
+  padding-bottom: 0;
+}
+
+.figcaption {
+  text-align: center;
+}
