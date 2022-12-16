@@ -27,17 +27,17 @@ html {
   
 }
 
-.nav-list {
+.nav_list {
   display: flex;
   justify-content: space-around;
   padding: 25px 0;
 } 
 
-.nav-item {
+.nav_item {
   list-style-type: none;
 }
 
-.nav-link {
+.nav_link {
   position: relative;
   text-decoration: none;
   text-transform: uppercase;
@@ -45,15 +45,15 @@ html {
   font-weight: 700;
 }
 
-.nav-link:visited { 
+.nav_link:visited { 
   color: #969696; 
 }
 
-.nav-link:active {
+.nav_link:active {
   color: #bb0000; 
 }
 
-.nav-link::before {
+.nav_link::before {
   position: absolute;
   top: 18px;
   content: '';
@@ -62,7 +62,7 @@ html {
   transition: 0.15s;
 }
 
-.nav-link:hover::before {
+.nav_link:hover::before {
   width: 100%;
 }
 
@@ -102,7 +102,7 @@ html {
   color: #ed1b34;
 }
 
-.profile-header {
+.profile_header {
   padding: 15px;
   padding-bottom: 0;
   font-size: 16px;
@@ -116,8 +116,8 @@ html {
   margin-top: 100px;
 }
 
-.skills-header,
-.contact-header {
+.skills_header,
+.contact_header {
   text-align: center;
   text-transform: uppercase;
   font-size: 16px;
@@ -193,7 +193,7 @@ html {
   background: #ffffff;
 }
 
-.right-header-2 {
+.right_header_2 {
   padding-top: 30px;
   font-size: 16px;
   letter-spacing: 3px;
@@ -208,7 +208,7 @@ html {
   word-spacing: 4px;
 }
 
-.edu-col-1 {
+.edu_col_1 {
   padding: 15px 25px 0px 15px;
   width: 50%;
   height: 50px;
@@ -218,11 +218,11 @@ html {
   word-spacing: 4px;
 }
 
-.edu-col-2 {
+.edu_col_2 {
   word-spacing: 4px;
 }
 
-.code-text {
+.code_text {
   display: block;
   padding-top: 10px; 
 
@@ -260,7 +260,6 @@ html {
   transform: 0.5s;  
 }
 
-
 .figcaption {
   text-align: center;
 }
@@ -278,21 +277,20 @@ html {
   color: #0000FF;
 }
 
-
 .lang-list {
   padding: 5px 25px;
-
-  list-style-type: none;
 }
 
-.lang-item {
-  padding: 5px 0;
+.lang_item {
+  padding: 5px 0 5px 25px;
   font-size: 16px;
+  list-style-type: none;  
 }
 
-.lang-item:last-child {
-  padding-bottom: 25px;
+.lang_item:last-child {
+  padding-bottom: 45px;
 }
+
 /********************* FOOTER *********************/
 
 .footer {
@@ -302,17 +300,15 @@ html {
   align-items: center;
 }
 
-.footer-link {
+.footer_link {
   padding: 35px 50px;
-
   background-size: 30px auto;
   background-repeat: no-repeat;
   background-position: 50% 50%;
-
   transition: 0.3s;
 }
 
-.footer-link:hover {
+.footer_link:hover {
   transform: scale(1.2);
 }
 
@@ -325,4 +321,3 @@ html {
   background-image: url('assets/img/rsschool.svg');
   background-size: 60px auto;
 }
-
