@@ -104,12 +104,36 @@ html {
 }
 
 .skills_item {
-  list-style-type: none;
-  padding-bottom: 15px;
+  padding: 10px 0 10px 25px;
+  list-style: none;
+}
+
+.skills_item {
+  padding: 10px 40px;
+  color: #FFFFFF;
+  text-decoration: none;
+  background-size: auto 30px;
+  background-repeat: no-repeat;
+  background-position: 0 50%;
 }
 
 .skills_item:last-child {
   padding-bottom: 0;
 }
 
+.html_icon {
+  background-image: url(./assets/img/icon-html.svg);
+}
+
+.css_icon {
+  background-image: url(./assets/img/icon-css.svg);
+}
+
+.js_icon {
+  background-image: url(./assets/img/icon-js.svg);
+}
+
+.git_icon {
+  background-image: url(./assets/img/icon-github.svg);
+}
 /****************** MAIN - RIGHT ******************/
