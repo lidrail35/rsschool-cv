@@ -11,6 +11,7 @@ html {
 .body {
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 16px;
+  background: url('./assets/img/bg.jpg');
 }
 
 .wrapper {
@@ -41,6 +42,14 @@ html {
   text-transform: uppercase;
   color: #4d4d4d;
   font-weight: 700;
+}
+
+.nav-link:visited { 
+  color: #969696; 
+}
+
+.nav-link:active {
+  color: #bb0000; 
 }
 
 .nav-link::before {
@@ -88,7 +97,7 @@ html {
   text-transform: uppercase;
   font-size: 24px;
   letter-spacing: 3px;
-  font-weight: 800;
+  font-weight: 500;
   color: #ed1b34;
 }
 
@@ -135,6 +144,14 @@ html {
   background-position: 0 50%;
 }
 
+.contact_link:visited {
+  color: #969696;
+}
+
+.contact_link:hover {
+  color: #0000FF;
+}
+
 .skills_item:last-child,
 .contact_item:last-child {
   padding-bottom: 0;
@@ -168,6 +185,7 @@ html {
 
 .right {
   padding: 0 25px;
+  background: #ffffff;
 }
 
 .right-header-2 {
@@ -225,9 +243,36 @@ html {
   padding-bottom: 0;
 }
 
+.puzzle,
+.zoo {
+  opacity: 0.75;
+  transition: all;
+}
+
+.puzzle:hover,
+.zoo:hover {
+  opacity: 1;
+  transform: 0.5s;  
+}
+
+
 .figcaption {
   text-align: center;
 }
+
+.exp_link:link {
+  color: #000000;
+}
+
+
+.exp_link:visited {
+  color: #969696;
+}
+
+.exp_link:hover {
+  color: #0000FF;
+}
+
 
 .lang-list {
   padding: 5px 25px;
@@ -264,7 +309,13 @@ html {
   transform: scale(1.2);
 }
 
+.footer_year {
+  font-size: 24px;
+  font-weight: 600;
+}
+
 .rsschool_link {
   background-image: url('assets/img/rsschool.svg');
   background-size: 60px auto;
 }
+
