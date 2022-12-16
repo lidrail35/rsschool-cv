@@ -180,3 +180,13 @@ html {
 .edu-col-2 {
   word-spacing: 4px;
 }
+
+.code-text {
+  display: block;
+  padding-top: 10px; 
+
+  font-weight: 600;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  background-color: #808080;
+}
