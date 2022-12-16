@@ -15,6 +15,10 @@ html {
 
 /********************* HEADER *********************/
 
+.footer {
+  background-color: #e0e0e0;
+}
+
 .nav-list {
   display: flex;
   justify-content: space-around;
@@ -221,4 +225,32 @@ html {
   padding: 5px 0;
 
   font-size: 18px;
+}
+
+/********************* FOOTER *********************/
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footer-link {
+  padding: 25px 50px;
+
+  background-size: 30px auto;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+
+  transition: 0.3s;
+}
+
+.footer-link:hover {
+  transform: scale(1.2);
+}
+
+.rsschool_link {
+  background-image: url('assets/img/rsschool.svg');
+  background-size: 60px auto;
 }
