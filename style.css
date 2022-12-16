@@ -23,7 +23,8 @@ html {
 
 .header, 
 .footer {
-  background-color: #ececec;
+  background-color: #c1c1c1;
+  
 }
 
 .nav-list {
@@ -112,7 +113,7 @@ html {
 
 .skills,
 .contact {
-  margin-top: 85px;
+  margin-top: 100px;
 }
 
 .skills-header,
@@ -126,6 +127,10 @@ html {
 .skills_list {
   margin-top: 20px;
   margin-left: 25px;
+}
+
+.contact_list {
+  margin-top: 20px;
 }
 
 .skills_item,
@@ -224,7 +229,7 @@ html {
   font-weight: 600;
   letter-spacing: 1px;
   word-spacing: 2px;
-  background-color: #808080;
+  background-color: #e1e1e1;
 }
 
 .exp_list {
@@ -282,10 +287,12 @@ html {
 
 .lang-item {
   padding: 5px 0;
-
-  font-size: 18px;
+  font-size: 16px;
 }
 
+.lang-item:last-child {
+  padding-bottom: 25px;
+}
 /********************* FOOTER *********************/
 
 .footer {
@@ -296,7 +303,7 @@ html {
 }
 
 .footer-link {
-  padding: 25px 50px;
+  padding: 35px 50px;
 
   background-size: 30px auto;
   background-repeat: no-repeat;
