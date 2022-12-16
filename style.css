@@ -112,9 +112,9 @@ html {
 }
 
 .skills_item,
-.contact_item {
+.contact_link:link {
   padding: 10px 40px;
- /* color: #FFFFFF;*/
+  color: #FFFFFF;
   text-decoration: none;
   background-size: auto 30px;
   background-repeat: no-repeat;
@@ -142,6 +142,12 @@ html {
   background-image: url(./assets/img/icon-github.svg);
 }
 
+.mail_icon {
+  background-image: url(./assets/img/icon-mail.svg);
+}
 
+.discord_icon {
+  background-image: url(./assets/img/icon-discord.svg);
+}
 
 /****************** MAIN - RIGHT ******************/
