@@ -166,3 +166,17 @@ html {
   line-height: 23px;
   word-spacing: 4px;
 }
+
+.edu-col-1 {
+  padding: 15px 25px 0px 15px;
+  width: 50%;
+  height: 50px;
+  
+  vertical-align: top;
+  text-align: left;
+  word-spacing: 4px;
+}
+
+.edu-col-2 {
+  word-spacing: 4px;
+}
